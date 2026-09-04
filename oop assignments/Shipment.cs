@@ -5,7 +5,7 @@ using System.Text;
 
 namespace oop_assignments
 {
-    internal struct Shipment
+    public struct Shipment
     {
         #region fields
         private string  trackingcode;
@@ -54,7 +54,11 @@ namespace oop_assignments
             Console.WriteLine($"Destination: {Destination}");
             Console.WriteLine($"Estimated Cost: ${EstimatedCost}");
         }
-
+        public override string ToString()
+        {
+            return $"Tracking Code: {trackingcode},\nDescription: {description}\nWeight: {weight} ,\nweight fee{deliveryfee} ,destnation {Destination},\n ";
+            
+        }
         #endregion
 
         #region properties

@@ -54,14 +54,14 @@
             #region q3 2-Ceate a Shipment struct
 
             //Shipment s1 = new Shipment("123456789");
-            Shipment s2 = new Shipment("987654321", "Package 2", 2.5, 75);
+            //Shipment s2 = new Shipment("987654321", "Package 2", 2.5, 75);
 
             #endregion
             /***********************/
 
             #region q3 3-Add the following methods to Shipment:
-            Console.WriteLine(  s2.NewFew(100));
-            s2.PrintShipmentDetails();
+            //Console.WriteLine(  s2.NewFew(100));
+            //s2.PrintShipmentDetails();
             #endregion
             /***********************/
 
