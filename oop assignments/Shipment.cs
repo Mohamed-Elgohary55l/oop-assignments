@@ -37,6 +37,24 @@ namespace oop_assignments
 
         }
 
+        public decimal NewFew(decimal newDeliveryFee)
+        {
+            if (newDeliveryFee > 0) 
+            {
+                DeliveryFee = newDeliveryFee;
+            }
+            return DeliveryFee;
+        }
+        public void PrintShipmentDetails()
+        {
+            Console.WriteLine($"Tracking Code: {trackingcode}");
+            Console.WriteLine($"Description: {description}");
+            Console.WriteLine($"Weight: {weight} kg");
+            Console.WriteLine($"Delivery Fee: ${deliveryfee}");
+            Console.WriteLine($"Destination: {Destination}");
+            Console.WriteLine($"Estimated Cost: ${EstimatedCost}");
+        }
+
         #endregion
 
         #region properties
