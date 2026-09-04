@@ -35,13 +35,26 @@
             #endregion
             /***********************/
 
-            #region
+            #region q3 1-Create a DeliveryAddress struct
+            //DeliveryAddress d1 = new DeliveryAddress("City", "Street", 123);
+            //DeliveryAddress d2 = d1;
+            //Console.WriteLine("-----------------------------before modification-----------------------------");
+            //Console.WriteLine($"Address 1: {d1.GetFullAddress()}");
+            //Console.WriteLine($"Address 2: {d2.GetFullAddress()}");
+            //d2.City = "New City";
+            //d2.Street = "New Street";
+            //d2.BuildingNumber = 567;
 
+            //Console.WriteLine("-----------------------------after modification-----------------------------");
+            //Console.WriteLine($"Address 1: {d1.GetFullAddress()}");
+            //Console.WriteLine($"Address 2: {d2.GetFullAddress()}");
             #endregion
             /***********************/
 
-            #region
+            #region q3 2-Ceate a Shipment struct
 
+            Shipment s1 = new Shipment("123456789");
+            Shipment s2 = new Shipment("987654321", "Package 2", 2.5, 75);
             #endregion
             /***********************/
 
